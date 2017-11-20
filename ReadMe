@@ -1,0 +1,23 @@
+Steps to run the application:
+
+a)Client side:
+  1. Place the entire pinkBlueC project folder in a http serever.
+  2. Change the client ip and server ip in config.js in the pinkBlueC/src/config.js
+ 
+b)Server side:
+  1. Run the server code by running inventory_controller.py file.
+  2. Change the database credentials(username, password, address, port) in inventory_dao.py file.
+  3. Run the inventorySchema.sql file to create database and respective tables. 
+  
+c) open login.html in the browser.
+
+
+
+Application flow:
+  1. Currently users and their roles are added manually(Statements addded in the sql file).
+  2. user1 is assigned "Store Manager" and user3 is assigned "Department Managent"
+  3. Enter user name and password in login.html page.
+  4. Press on "create" button to add the product to the inventory.
+  5. Press on "view" button to view the products in the inventory.
+  6. Press on "approve" button(only for Store Manager) to approve the requested products to the inventory.
+  7. Logout functionality has to be implemented.

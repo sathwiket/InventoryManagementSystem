@@ -20,4 +20,4 @@ Application flow:
   4. Press on "create" button to add the product to the inventory.
   5. Press on "view" button to view the products in the inventory.
   6. Press on "approve" button(only for Store Manager) to approve the requested products to the inventory.
-  7. Logout functionality has to be implemented.
+  7. Logout functionality has to be implemented(To change the user, clear the data from cache temporarily).
